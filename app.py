@@ -2,8 +2,6 @@ import streamlit as st
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
-USER_ICON = "images/user.png"
-BOT_ICON = "images/bot.png"
 
 # 1. Page Setup
 st.set_page_config(page_title="Health Guide AI", page_icon="🌿")
